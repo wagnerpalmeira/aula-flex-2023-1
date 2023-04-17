@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Aula 01</title>
+    <style>
+        .dflex {
+            display: flex;
+        }
+
+        .item {
+            background: blue;
+            border: 1px solid #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 3px solid red;
+            flex-flow: row nowrap;
+            align-content: flex-end;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Aula flexbox 1</div>
+        <div class="item">Aula flexbox 2</div>
+        <div class="item">Aula flexbox 3</div>
+        <div class="item">Aula flexbox 4</div>
+    </div>
+</body>
+</html>
